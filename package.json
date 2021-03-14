@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "start":"node server.js",
     "test": "nyc mocha ./src/",
     "coverage": "nyc --reporter=html --reporter=text mocha ./src/"
   },
